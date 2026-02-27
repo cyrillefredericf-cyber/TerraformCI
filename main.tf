@@ -6,13 +6,13 @@ terraform {
       version = "~>3.43.0"
     }
   }
-  cloud { 
-    
-    organization = "river_city_ai" 
-    workspaces { 
-      name = "TerraformCI" 
-    } 
-  } 
+  cloud {
+
+    organization = "river_city_ai"
+    workspaces {
+      name = "TerraformCI"
+    }
+  }
 }
 
 provider "azurerm" {
